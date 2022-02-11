@@ -1,6 +1,6 @@
 # cs305_2022
 
-## [Assignemnt 1](https://docs.google.com/document/d/1a1Foh7ni-N6KXhkDdST14_hk7sH-3rJJoXfhtxRKcC8/edit)
+## [Assignment 1](https://docs.google.com/document/d/1a1Foh7ni-N6KXhkDdST14_hk7sH-3rJJoXfhtxRKcC8/edit)
 
 ## [Repository Link](https://github.com/dhakad-anant/cs305_2022)
 
