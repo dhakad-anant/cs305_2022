@@ -4,11 +4,11 @@
 
 ## [Repository Link](https://github.com/dhakad-anant/cs305_2022)
 
-## Submitter name: Anant Dhakad
+### Submitter name: Anant Dhakad
 
-## Roll No.: 2019CSB1070
+### Roll No.: 2019CSB1070
 
-## Course: Software Engineering (CS305)
+### Course: Software Engineering (CS305)
 
 =================================
 
