@@ -58,6 +58,6 @@ Method 1: Using IntelliJ IDEA
 Press the run option in 'LibraryTest.java'. To check code coverage, press run with the coverage method
 
 Method 2: Using CMD
--> gradle build
--> gradle test
+- gradle build
+- gradle test
 
