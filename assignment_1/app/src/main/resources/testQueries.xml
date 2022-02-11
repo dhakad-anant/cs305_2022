@@ -1,0 +1,37 @@
+<queries>
+    <sql id="updateLastName" paramType="assignment_1.parameter2">
+        <![CDATA[
+            update actor set last_name=${propX} where actor_id=${propY};
+        ]]>
+    </sql>
+    <sql id="insertActor" paramType="assignment_1.parameter2">
+        <![CDATA[
+            insert into actor(first_name,last_name) values (${propX},${propY});
+      ]]>
+    </sql>
+    <sql id="deleteActor" paramType="assignment_1.parameter1">
+        <![CDATA[
+            delete from actor where actor_id=${propX};
+      ]]>
+    </sql>
+    <sql id="findActorsby_actorID" paramType="assignment_1.parameter1">
+        <![CDATA[
+        SELECT actor_id, first_name,last_name FROM actor WHERE actor_id=${propX};
+        ]]>
+    </sql>
+    <sql id="findActorsby_lastName" paramType="assignment_1.parameter1">
+        <![CDATA[
+        SELECT actor_id, first_name,last_name FROM actor WHERE last_name=${propX};
+        ]]>
+    </sql>
+    <sql id="passingPrimitive" paramType="java.lang.Integer">
+        <![CDATA[
+         select * from actor where actor_id=${propX};
+         ]]>
+    </sql>
+    <sql id="passingArray" paramType="[I">
+        <![CDATA[
+        SELECT actor_id, first_name,last_name FROM actor WHERE actor_id in ${propX};
+        ]]>
+    </sql>
+</queries>
