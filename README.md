@@ -58,6 +58,7 @@ Method 1: Using IntelliJ IDEA
 Press the run option in 'LibraryTest.java'. To check code coverage, press run with the coverage method
 
 Method 2: Using CMD
+Go in the \cs305_2022\assignment_1 directory.
 - gradle build
 - gradle test
 
