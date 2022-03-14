@@ -1,0 +1,15 @@
+<!doctype html>
+    <title>Search Faces</title>
+    <h1>Upload an image to add a face in the 'face' database</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" id="file">
+      <label for="file">Select Image</label><br><br>
+
+      <input type="number" name="k" id="k">
+      <label for="k">Value of k</label><br><br>
+
+      <input type="number" step="any" name="confidence_level" id="confidence_level">
+      <label for="confidence_level">Confidence level</label><br><br>
+
+      <input type="submit" value="Upload">
+    </form>
