@@ -1,0 +1,6 @@
+{
+    "host": "127.0.0.1",
+    "port": 1234,
+    "db_url": "./resources/midsem.db",
+    "log_file": "./resources/log.txt"
+}

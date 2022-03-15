@@ -1,0 +1,10 @@
+insert into message_logs(RouteId, EventType, EventTime) values(1, 'RECEIVED', datetime('now'));
+
+create table message_logs(PK INTEGER PRIMARY KEY AUTOINCREMENT, RouteId INTEGER NOT NULL, EventType varchar(255) NOT NULL, EventTime text NOT NULL);
+
+CREATE TABLE routing( RouteId INTEGER PRIMARY KEY AUTOINCREMENT, Sender varchar(255) NOT NULL, MessageType varchar(255) NOT NULL, Destination varchar(255) NOT NULL);
+
+INSERT INTO routing (Sender, MessageType, Destination) VALUES ('http://127.0.0.1:23001/foo', 'VALIDATE_PAN', 'http://127.0.0.1:44001/check_pan');
+INSERT INTO routing (Sender, MessageType, Destination) VALUES ('http://127.0.0.1:23002', 'GET_CIBIL_SCORE', 'http://127.0.0.1:44001/cibil');
+INSERT INTO routing (Sender, MessageType, Destination) VALUES ('http://127.0.0.1:23003', 'TRANSLATE', 'http://127.0.0.1:44002/translate');
+INSERT INTO routing (Sender, MessageType, Destination) VALUES ('http://127.0.0.1:23004', 'STOCK_QUOTE', 'http://127.0.0.1:44002/stock');
