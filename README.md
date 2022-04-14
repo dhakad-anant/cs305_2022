@@ -52,8 +52,10 @@ Go to any of the endpoints to interact with the endpoints.
 
 For running the test (make sure you have executed "python initialize_db_start.py" before this)
 >> coverage run -m pytest
+
 To get report in shell
 >> coverage report -m
+
 To get the coverage in html
 >> coverage html
 
