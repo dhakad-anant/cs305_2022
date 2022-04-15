@@ -32,7 +32,9 @@ It is assumed that the images used are of the format of the lzw_database images.
 
 a) First unzip the file provided. Then make sure to install the following python modules: (face_recognition,mysqlclient,flask-mysqldb,coverage,pytest,requests).
 Then run.
+```
 >> pip install -r requirements.txt
+```
 
 b) Then enter your mysql credentials in pkg/main.py
 
@@ -41,23 +43,32 @@ c) create a database named "face" in your mysql shell using command "create data
 
 For running the server:
 a) navigate to into the extrated folder and run
+```
 >> python initialize_db_start.py
+```
 This command will create the tables automatically. Close this server by ctrl+c
 
 b) then run
+```
 >> python main_start.py
+```
 This command will start the server at http://127.0.0.1:5001/
 Go to any of the endpoints to interact with the endpoints.
 
 
 For running the test (make sure you have executed "python initialize_db_start.py" before this)
+```
 >> coverage run -m pytest
+```
 
 To get report in shell
+```
 >> coverage report -m
+```
 
 To get the coverage in html
+```
 >> coverage html
-
+```
 Go to the index.html page to get the coverage.
 The coverage is well above the limit (85%) 
